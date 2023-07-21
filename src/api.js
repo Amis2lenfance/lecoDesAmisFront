@@ -1,6 +1,6 @@
 
-const BACKEND = 'https://lescopaings.azurewebsites.net/api';
-export const BACKENDPOST = 'https://lescopaings.azurewebsites.net/';
+const BACKEND = 'https://ecodesamis.azurewebsites.net/api';
+export const BACKENDPOST = 'https://ecodesamis.azurewebsites.net/';
 
 /**
  * Faire un appel AJAX avec l'API fetch

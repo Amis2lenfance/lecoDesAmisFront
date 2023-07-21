@@ -30,7 +30,9 @@
           </div>
         </div>
       </Form>
-      <p @click="sendMailForm= true" >Mot de passe oublié</p>
+
+      <RouterLink to="/newPassword">Mot de passe oublié</RouterLink>
+      <!--<p @click="sendMailForm= true" >Mot de passe oublié</p>
       <form v-if="sendMailForm">
         <div class="form-group">
           <Field v-model="email" name="mail" type="mail" class="form-control" placeholder="Votre email"/>
@@ -42,7 +44,7 @@
             Envoyer
           </button>
         </div>
-      </form>
+      </form>-->
       <p>Pas encore membre ?</p>
       <RouterLink to="/register"> Inscription </RouterLink>
     </div>
